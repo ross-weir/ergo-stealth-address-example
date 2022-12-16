@@ -12,7 +12,7 @@ In this example we output the stealthbox id instead of searching for spendable U
 
 ### Usage
 
-This was made as a PoC and might not run out of the box, the intention was for me to get an idea of the stealth box usage flow. To get it to run you will need to do the following:
+This was made as a PoC and might not run out of the box, the intention was for me to get an idea of the stealth box usage flow. To get it to run you will need to do at least the following:
 
 - Have a node running locally (unless you update the values in `index.ts`)
 - Have the rest api exposed at `http://localhost:9052` using `hello` as the API key (unless you update the values in `index.ts`)
