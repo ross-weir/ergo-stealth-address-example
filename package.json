@@ -1,0 +1,27 @@
+{
+  "name": "stealth-address",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sender": "ts-node index.ts sender",
+    "receiver": "ts-node index.ts receiver"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/bn.js": "^5.1.1",
+    "@types/elliptic": "^6.4.14",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@fleet-sdk/common": "^0.1.0-alpha.15",
+    "@fleet-sdk/core": "^0.1.0-alpha.15",
+    "axios": "^1.2.1",
+    "bn.js": "^5.2.1",
+    "elliptic": "^6.5.4",
+    "ergo-lib-wasm-nodejs": "^0.21.1",
+    "ts-node": "^10.9.1"
+  }
+}
